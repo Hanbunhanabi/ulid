@@ -27,7 +27,7 @@ add_library(ulid::ulid ALIAS ulid)
 
 # By prefixing the installation paths with our name and version
 # we can have multiple versions installed at the same time.
-set(PROJECT_PREFIX ulid-${ulid_VERSION})
+set(PROJECT_PREFIX ulid)
 
 
 
